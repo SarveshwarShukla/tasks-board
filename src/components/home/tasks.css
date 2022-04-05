@@ -1,0 +1,118 @@
+.main-container{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.tasks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tasks-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 600px;
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+  }
+  
+  h1 {
+    margin: 32px 0;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+  
+  .tasks-form {
+    margin-bottom: 32px;
+  }
+  
+  .tasks-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #000000;
+    outline: none;
+    width: 320px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+  
+  .tasks-input::placeholder {
+    color: #000000;
+  }
+  
+  .tasks-button {
+    padding: 16px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: #1c437c;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+  
+  .tasks-input.edit {
+    border: 2px solid #1c437c;
+  }
+  
+  .tasks-button.edit {
+    background: #1c437c;
+    padding: 16px 22px;
+  }
+  
+  .tasks-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .tasks-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: #fff;
+    background: #1c437c;  
+    padding: 16px;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-button, .edit-button {
+    margin-right: 15px;
+    color: black;
+    font-size: 16px;
+    padding: 8px 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  .delete-button {
+      margin-right: 30px;
+  }
+
+
+  /* ============ Media Query (Medium and Small devices) ============ */
+  @media screen and (max-width:1024px){
+    
+  }
