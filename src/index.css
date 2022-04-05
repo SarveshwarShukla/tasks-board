@@ -137,7 +137,7 @@
 }
 
 
-/* ============ Media Query (Medium and Small devices) =========== */
+/* ============ Media Query (Medium devices) =========== */
 @media screen and (max-width:1180px){
   .login {
     display: flex;
@@ -160,12 +160,17 @@
 .home__class nav {
   padding: 20px 20px;
 }
-.right_nav img{
-  display: none;
-}
+
   
   
 }
 
-@media screen and (max-width:460px){
+/* ============== Media Query (Small Devices) =========== */
+@media screen and (max-width:500px){
+  .home__class nav h2 {
+    font-size: 17px;
+  }
+  .right_nav img{
+    display: none;
+  }
 }
